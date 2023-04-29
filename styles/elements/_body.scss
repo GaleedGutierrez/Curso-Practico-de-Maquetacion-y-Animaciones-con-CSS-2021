@@ -1,5 +1,5 @@
-@use "../settings/variables";
-@use "../tools/mixins";
+@use '../settings/variables';
+@use '../tools/mixins';
 
 body {
 	// padding-block: variables.$space-6 variables.$space-10;
@@ -11,7 +11,6 @@ body {
 
 	@include mixins.body-lg;
 }
-
 
 // // Tablet
 // @media screen and (min-width: variables.$screen-tablet) {

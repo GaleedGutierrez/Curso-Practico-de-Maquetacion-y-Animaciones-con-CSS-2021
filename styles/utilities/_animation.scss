@@ -1,4 +1,4 @@
-@use "../settings/variables";
+@use '../settings/variables';
 
 @keyframes loader {
 	0% {
@@ -44,5 +44,25 @@
 
 	100% {
 		transform: translateY(0);
+	}
+}
+
+@keyframes side-content-title {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes side-content-img {
+	0% {
+		transform: translateX(60rem);
+	}
+
+	100% {
+		transform: translateX(0);
 	}
 }

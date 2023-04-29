@@ -1,13 +1,13 @@
-@use "../settings/variables";
-
+@use '../settings/variables';
 
 .g-main-content {
 	display: flex;
 	grid-area: main;
 	flex-direction: column;
 	justify-content: center;
-	animation: main-content 2s 500ms ease-in-out;
 	padding-inline-start: variables.$space-20;
+	transform: translateY(-60rem);
+	animation: main-content 2.5s 500ms ease-in-out forwards;
 
 	&__title {
 		order: 2;

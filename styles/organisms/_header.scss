@@ -1,13 +1,18 @@
-@use "../settings/variables";
+@use '../settings/variables';
 
 .g-header {
 	display: flex;
 	grid-area: header;
 	color: red;
-	animation: header 2s 500ms ease-in-out;
+	transform: translateY(-20rem);
+	animation-name: header;
+	animation-duration: 500ms;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
 
 	&__img {
-		width: 5.2rem	;
+		width: 5.2rem;
 	}
 
 	&__nav {
