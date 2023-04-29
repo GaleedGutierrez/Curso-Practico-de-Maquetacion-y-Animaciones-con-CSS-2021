@@ -1,4 +1,6 @@
 // Weight
+$weight-thin: 100;
+$weight-light: 300;
 $weight-regular: 400;
 $weight-medium: 500;
 $weight-semibold: 600;
@@ -6,11 +8,34 @@ $weight-bold: 700;
 
 // Font Family
 @font-face {
-	font-family: Inter;
-	src: url("./assets/font-family/Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+	font-family: Lato;
+	src: url("../assets/font-family/Lato/Lato-Thin.ttf") format("truetype");
+	font-weight: $weight-thin;
+	font-style: normal;
 }
 
-$_font-family: "Inter", sans-serif;
+@font-face {
+	font-family: Lato;
+	src: url("../assets/font-family/Lato/Lato-Light.ttf") format("truetype");
+	font-weight: $weight-light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("./assets/font-family/Lato/Lato-Regular.ttf") format("truetype");
+	font-weight: $weight-regular;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("./assets/font-family/Lato/Lato-Bold.ttf") format("truetype");
+	font-weight: $weight-bold;
+	font-style: normal;
+}
+
+$_font-family: "Lato", sans-serif;
 $primary-font: $_font-family;
 
 // Typography scale
