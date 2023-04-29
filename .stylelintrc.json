@@ -239,7 +239,8 @@
 			"vw",
 			"fr",
 			"em",
-			"px"
+			"px",
+			"s"
 		],
 		"scss/dollar-variable-pattern": "^^_?[a-z0-9]+(-[a-z0-9]+)*$"
 	}
