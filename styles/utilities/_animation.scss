@@ -26,3 +26,13 @@
 		transform: scale(0.2);
 	}
 }
+
+@keyframes header {
+	0% {
+		transform: translateY(-20rem);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
