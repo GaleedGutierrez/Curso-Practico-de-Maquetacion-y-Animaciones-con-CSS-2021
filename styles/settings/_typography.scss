@@ -9,33 +9,33 @@ $weight-bold: 700;
 // Font Family
 @font-face {
 	font-family: Lato;
-	src: url("./assets/font-family/Lato/Lato-Thin.ttf") format("truetype");
+	src: url('./assets/font-family/Lato/Lato-Thin.ttf') format('truetype');
 	font-weight: $weight-thin;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Lato;
-	src: url("./assets/font-family/Lato/Lato-Light.ttf") format("truetype");
+	src: url('./assets/font-family/Lato/Lato-Light.ttf') format('truetype');
 	font-weight: $weight-light;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Lato;
-	src: url("./assets/font-family/Lato/Lato-Regular.ttf") format("truetype");
+	src: url('./assets/font-family/Lato/Lato-Regular.ttf') format('truetype');
 	font-weight: $weight-regular;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Lato;
-	src: url("./assets/font-family/Lato/Lato-Bold.ttf") format("truetype");
+	src: url('./assets/font-family/Lato/Lato-Bold.ttf') format('truetype');
 	font-weight: $weight-bold;
 	font-style: normal;
 }
 
-$_font-family: "Lato", sans-serif;
+$_font-family: 'Lato', sans-serif;
 $primary-font: $_font-family;
 
 // Typography scale

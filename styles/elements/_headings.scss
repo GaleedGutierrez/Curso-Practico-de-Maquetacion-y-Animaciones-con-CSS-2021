@@ -1,4 +1,4 @@
-@use "../tools/mixins";
+@use '../tools/mixins';
 
 h1 {
 	@include mixins.heading-4xl;
@@ -13,9 +13,9 @@ h3 {
 }
 
 h4 {
-	@include mixins.heading-xl
+	@include mixins.heading-xl;
 }
 
 h5 {
-	@include mixins.heading-lg
+	@include mixins.heading-lg;
 }

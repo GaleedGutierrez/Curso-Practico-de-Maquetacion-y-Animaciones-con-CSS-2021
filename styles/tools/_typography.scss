@@ -1,4 +1,4 @@
-@use "../settings/variables";
+@use '../settings/variables';
 
 @mixin heading-4xl {
 	font-size: variables.$fs-title-4xl;
