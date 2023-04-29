@@ -1,0 +1,30 @@
+@use "../settings/variables";
+
+.g-header {
+	grid-area: header;
+	background-color: lightpink;
+	color: red;
+	animation: header 2s 500ms ease-in-out;
+
+	&__img {
+		width: 5.2rem	;
+	}
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		padding-inline-start: variables.$space-20;
+	}
+
+	&__links-container {
+		display: flex;
+		justify-content: space-evenly;
+		width: 45.2rem;
+	}
+
+	&__link {
+		font-weight: variables.$weight-thin;
+		color: variables.$text-red-color;
+	}
+}
