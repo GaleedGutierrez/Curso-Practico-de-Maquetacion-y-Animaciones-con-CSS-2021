@@ -1,0 +1,11 @@
+@use '../settings/variables';
+
+$pure-black: variables.$pure-black;
+
+.g-modal {
+	position: absolute;
+	z-index: variables.$z-index-1-block-group;
+	width: 100%;
+	height: 100%;
+	background: rgba($pure-black, 50%);
+}
