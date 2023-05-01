@@ -3,3 +3,4 @@
 
 npx lint-staged
 git add .
+gitmoji -c
