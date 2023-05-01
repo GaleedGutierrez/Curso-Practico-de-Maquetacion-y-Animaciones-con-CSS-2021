@@ -15,10 +15,10 @@
 	}
 
 	&__subtitle {
+		order: 1;
 		margin-block-end: calc(variables.$space-3 * -1);
 		margin-inline-start: variables.$space-11;
 		font-weight: variables.$weight-light;
-		order: 1;
 	}
 
 	&__description {
