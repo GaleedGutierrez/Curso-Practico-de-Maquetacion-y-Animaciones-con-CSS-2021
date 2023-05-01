@@ -56,7 +56,8 @@
 	},
 	"lint-staged": {
 		"*.(j|t)s": "eslint --fix",
-		"*.s(a|c)ss": "stylelint --fix"
+		"*.s(a|c)ss": "stylelint --fix",
+		"*.html": "prettier --write"
 	},
 	"type": "module"
 }
