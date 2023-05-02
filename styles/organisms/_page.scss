@@ -1,8 +1,8 @@
 .g-page {
 	position: relative;
 	display: grid;
-	grid-template-columns: 55% 45%;
 	grid-template-rows: 20% 50% 30%;
+	grid-template-columns: 55% 45%;
 	grid-template-areas:
 		'header aside'
 		'main aside'

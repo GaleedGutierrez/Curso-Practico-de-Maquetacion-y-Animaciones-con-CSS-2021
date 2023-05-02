@@ -34,7 +34,17 @@
 		"order/properties-order": [
 			"position",
 			"z-index",
+
 			"inset",
+
+			"inset-inline",
+			"inset-block",
+
+			"inset-block-start",
+			"inset-inline-end",
+			"inset-block-end",
+			"inset-inline-start",
+
 			"left",
 			"top",
 			"right",
@@ -45,19 +55,19 @@
 			"gap",
 
 			"grid-template",
-			"grid-template-columns",
 			"grid-template-rows",
+			"grid-template-columns",
 			"grid-template-areas",
-			"grid-auto-columns",
 			"grid-auto-rows",
+			"grid-auto-columns",
 			"grid-auto-flow",
 			"grid-area",
-			"grid-column",
 			"grid-row",
-			"grid-column-start",
-			"grid-column-end",
+			"grid-column",
 			"grid-row-start",
 			"grid-row-end",
+			"grid-column-start",
+			"grid-column-end",
 
 			"box-sizing",
 			"flex",
@@ -65,8 +75,8 @@
 			"flex-direction",
 			"flex-flow",
 			"flex-grow",
-			"flex-wrap",
 			"flex-shrink",
+			"flex-wrap",
 
 			"place-content",
 			"place-items",
@@ -81,97 +91,132 @@
 
 			"content",
 
+			"inline-size",
 			"width",
+			"max-inline-size",
 			"max-width",
+			"min-inline-size",
 			"min-width",
 
+			"block-size",
 			"height",
+			"max-block-size",
 			"max-height",
+			"min-block-size",
 			"min-height",
 
 			"padding",
-			"padding-block",
+
 			"padding-inline",
+			"padding-block",
+
 			"padding-block-start",
-			"padding-inline-start",
-			"padding-block-end",
 			"padding-inline-end",
+			"padding-block-end",
+			"padding-inline-start",
+
 			"padding-top",
 			"padding-right",
 			"padding-bottom",
 			"padding-left",
 
 			"border",
-			"border-radius",
-			"border-top",
-			"border-left",
-			"border-bottom",
-			"border-right",
-			"border-color",
-			"border-width",
-			"border-style",
-			"border-collapse",
-			"border-spacing",
-			"border-block",
+
 			"border-inline",
-			"border-image",
-			"border-top-left-radius",
-			"border-top-right-radius",
-			"border-bottom-right-radius",
-			"border-bottom-left-radius",
-			"border-bottom-color",
-			"border-bottom-width",
-			"border-bottom-style",
-			"border-top-color",
-			"border-top-width",
-			"border-top-style",
-			"border-right-color",
-			"border-right-width",
-			"border-right-style",
-			"border-left-color",
-			"border-left-width",
-			"border-left-style",
+			"border-block",
+
 			"border-block-start",
 			"border-inline-end",
 			"border-block-end",
 			"border-inline-start",
-			"border-block-color",
-			"border-block-style",
+
+			"border-top",
+			"border-left",
+			"border-bottom",
+			"border-right",
+
+			"border-width",
+
+			"border-inline-width",
 			"border-block-width",
-			"border-block-end-color",
-			"border-block-end-width",
-			"border-block-end-style",
-			"border-block-start-color",
-			"border-block-start-style",
+
 			"border-block-start-width",
+			"border-inline-end-width",
+			"border-block-end-width",
+			"border-inline-start-width",
+
+			"border-top-width",
+			"border-right-width",
+			"border-bottom-width",
+			"border-left-width",
+
+			"border-style",
+
+			"border-inline-style",
+			"border-block-style",
+
+			"border-block-start-style",
+			"border-inline-end-style",
+			"border-block-end-style",
+			"border-inline-start-style",
+
+			"border-top-style",
+			"border-right-style",
+			"border-bottom-style",
+			"border-left-style",
+
+			"border-color",
+
+			"border-top-color",
+			"border-right-color",
+			"border-bottom-color",
+			"border-left-color",
+
+			"border-inline-color",
+			"border-block-color",
+
+			"border-block-start-color",
+			"border-inline-end-color",
+			"border-block-end-color",
+			"border-inline-start-color",
+
+			"border-radius",
+
+			"border-top-left-radius",
+			"border-top-right-radius",
+			"border-bottom-right-radius",
+			"border-bottom-left-radius",
+
+			"border-start-start-radius",
+			"border-start-end-radius",
 			"border-end-start-radius",
 			"border-end-end-radius",
+
+			"border-collapse",
+			"border-spacing",
+
+			"border-image",
 			"border-image-outset",
 			"border-image-repeat",
 			"border-image-slice",
 			"border-image-source",
 			"border-image-width",
-			"border-inline-color",
-			"border-inline-style",
-			"border-inline-width",
-			"border-inline-start-color",
-			"border-inline-start-style",
-			"border-inline-start-width",
-			"border-inline-end-color",
-			"border-inline-end-style",
-			"border-inline-end-width",
 
 			"margin",
-			"margin-top",
-			"margin-left",
-			"margin-bottom",
-			"margin-right",
-			"margin-block",
+
 			"margin-inline",
+			"margin-block",
+
 			"margin-block-start",
 			"margin-inline-end",
 			"margin-block-end",
 			"margin-inline-start",
+
+			"margin-top",
+			"margin-left",
+			"margin-bottom",
+			"margin-right",
+
 			"margin-trim",
 
 			"background",
@@ -256,6 +301,9 @@
 			"transform-origin",
 			"transform-style",
 			"transform-box",
+			"perspective",
+			"perspective-origin",
+			"backface-visibility",
 
 			"animation",
 			"animation-name",
@@ -267,7 +315,9 @@
 			"animation-fill-mode",
 			"animation-play-state",
 			"animation-composition",
-			"animation-timeline"
+			"animation-timeline",
+
+			"cursor"
 		],
 		"unit-allowed-list": [
 			"vh",

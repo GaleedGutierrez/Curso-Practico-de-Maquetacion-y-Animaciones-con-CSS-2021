@@ -10,7 +10,8 @@
 		"prepare": "husky install",
 		"lint": "eslint ./",
 		"lint:fix": "npx eslint --fix ./",
-		"stylelint": "npx stylelint **/*.scss"
+		"stylelint": "npx stylelint \"**/*.scss\"",
+		"stylelint:fix": "npx stylelint --fix \"**/*.scss\""
 	},
 	"repository": {
 		"type": "git",
@@ -54,7 +55,9 @@
 		"vite": "^4.3.2"
 	},
 	"lint-staged": {
-		"*.(j|t)s": "eslint --fix"
+		"*.(j|t)s": "eslint --fix",
+		"*.s(a|c)ss": "stylelint --fix",
+		"*.html": "prettier --write"
 	},
 	"type": "module"
 }
