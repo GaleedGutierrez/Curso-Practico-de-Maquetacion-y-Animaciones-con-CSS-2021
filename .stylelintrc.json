@@ -315,7 +315,9 @@
 			"animation-fill-mode",
 			"animation-play-state",
 			"animation-composition",
-			"animation-timeline"
+			"animation-timeline",
+
+			"cursor"
 		],
 		"unit-allowed-list": [
 			"vh",

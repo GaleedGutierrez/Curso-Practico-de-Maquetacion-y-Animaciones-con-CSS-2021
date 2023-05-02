@@ -75,22 +75,87 @@
 				/>
 			</figure>
 		</aside>
+
 		<!-- Loader -->
 		<section class="g-loader">
-			<div class="a-circle g-loader__circle"></div>
-			<div class="a-circle g-loader__circle"></div>
-			<div class="a-circle g-loader__circle"></div>
+			<div class="a-circle g-loader__circle a-circle--yellow"></div>
+			<div class="a-circle g-loader__circle a-circle--yellow"></div>
+			<div class="a-circle g-loader__circle a-circle--yellow"></div>
 		</section>
+
 		<!-- Modal -->
 		<section id="modal" class="g-modal hidden">
 			<article class="g-modal__content">
 				<button id="button-close" class="g-modal__btn-close">
 					<figure>
-						<img src="./assets/proyect/close-icon.webp" alt="" />
+						<img
+							src="./assets/proyect/close-icon.webp"
+							alt="Botón de cerrar card"
+						/>
 					</figure>
 				</button>
+				<div class="g-modal__slider">
+					<form action="" class="g-modal__form">
+						<input
+							type="radio"
+							name="slider"
+							value="slider-1"
+							id="slider-1"
+							class="g-modal__input no-visible"
+							checked
+						/>
+						<input
+							type="radio"
+							name="slider"
+							id="slider-2"
+							class="g-modal__input no-visible"
+							value="slider-2"
+						/>
+						<input
+							type="radio"
+							name="slider"
+							class="g-modal__input no-visible"
+							id="slider-3"
+							value="slider-3"
+						/>
+						<div class="g-modal__cards">
+							<label for="slider-1">
+								<figure class="g-modal__card" id="card-1">
+									<img
+										class="g-modal__img"
+										src="./assets/proyect/spider-man-1.webp"
+										alt="Spiderman volando"
+										title="Spiderman volando"
+									/>
+								</figure>
+							</label>
+							<label for="slider-2">
+								<figure class="g-modal__card" id="card-2">
+									<img
+										class="g-modal__img"
+										src="./assets/proyect/spider-man-2.webp"
+										alt="Spiderman con escudo"
+										title="Spiderman con escudo"
+									/>
+								</figure>
+							</label>
+							<label for="slider-3">
+								<figure class="g-modal__card" id="card-3">
+									<img
+										class="g-modal__img"
+										src="./assets/proyect/spider-man-3.webp"
+										alt="Spiderman parado"
+										title="Spiderman parado"
+									/>
+								</figure>
+							</label>
+						</div>
+					</form>
+				</div>
+				<button class="g-modal__btn-i-want-it">¡Lo quiero!</button>
 			</article>
 		</section>
+
 		<footer class="g-footer">
 			<ul class="g-footer__characters">
 				<li class="g-footer__list">
@@ -131,7 +196,7 @@
 				</li>
 			</ul>
 		</footer>
-		<script type="module" src="./index.ts"></script>
+		<script type="module" src="./src/index.ts"></script>
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org/",

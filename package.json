@@ -10,8 +10,8 @@
 		"prepare": "husky install",
 		"lint": "eslint ./",
 		"lint:fix": "npx eslint --fix ./",
-		"stylelint": "npx stylelint **/*.scss",
-		"stylelint:fix": "npx stylelint --fix **/*.scss"
+		"stylelint": "npx stylelint \"**/*.scss\"",
+		"stylelint:fix": "npx stylelint --fix \"**/*.scss\""
 	},
 	"repository": {
 		"type": "git",

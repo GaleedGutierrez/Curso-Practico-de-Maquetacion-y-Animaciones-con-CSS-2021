@@ -1,4 +1,4 @@
-import './styles/styles.scss';
+import '../styles/styles.scss';
 
 const toggleModal = (): void => {
 	MODAL.classList.toggle('hidden');
