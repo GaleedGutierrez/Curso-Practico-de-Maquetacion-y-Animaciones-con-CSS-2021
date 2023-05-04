@@ -40,7 +40,7 @@ Para desarrollar el proyecto, usé las siguientes herramientas:
 # Resultado 🚀
 
 El resultado final fue una una página web divertida y atractiva, optimizada para dispositivos con pantallas grandes 🖥️, que muestra los diferentes tipos de superhéroes de LEGO 🧩.
-🌐 Puedes ver el sitio aquí: [LINK]
+🌐 Puedes ver el sitio aquí: [LEGO 🧩](https://galeedgutierrez.com/Curso-Practico-de-Maquetacion-y-Animaciones-con-CSS-2021/dist/)
 
 ![Captura de pantalla del proyecto](./assets/readme/screenshot.webp "Captura de pantalla del proyecto")
 
