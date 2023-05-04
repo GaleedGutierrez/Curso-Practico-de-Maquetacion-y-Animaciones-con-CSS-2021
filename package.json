@@ -11,7 +11,9 @@
 		"lint": "eslint ./",
 		"lint:fix": "npx eslint --fix ./",
 		"stylelint": "npx stylelint \"**/*.scss\"",
-		"stylelint:fix": "npx stylelint --fix \"**/*.scss\""
+		"stylelint:fix": "npx stylelint --fix \"**/*.scss\"",
+		"prettier": "prettier --write",
+		"prettier:fix": "prettier --write *.html"
 	},
 	"repository": {
 		"type": "git",
